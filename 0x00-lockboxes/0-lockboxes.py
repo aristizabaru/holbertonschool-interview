@@ -17,12 +17,13 @@ def canUnlockAll(boxes):
     Returns:
         Bool: True if all boxes can be unlocked. False if fail
     """
-    keys = set(boxes[0])
+    keys = set()
 
-    for next_key, box in enumerate(boxes[1:]):
+    for next_key, box in enumerate(boxes):
         next_key += 1
-        if next_key not in keys and next_key < len(boxes):
-            return False
+        keys.update(box)
         for key in box:
             keys.update(boxes[key])
+        if next_key not in keys and next_key < len(boxes):
+            return False
     return True
