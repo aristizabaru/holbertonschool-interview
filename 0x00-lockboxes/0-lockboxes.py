@@ -19,10 +19,10 @@ def canUnlockAll(boxes):
     """
     keys = set(boxes[0])
 
-    for next_key, box in enumerate(boxes):
+    for next_key, box in enumerate(boxes[1:]):
         next_key += 1
-        for key in box:
-            keys.update(boxes[key])
         if next_key not in keys and next_key < len(boxes):
             return False
+        for key in box:
+            keys.update(boxes[key])
     return True
