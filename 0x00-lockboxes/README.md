@@ -7,7 +7,6 @@ This is an educational project that explore the **Lockboxes** interview problem 
 ## Table of contents
 
 - [Requirements](#requirements)
-  - [Installing Matplotlib 3.0](#installing-matplotlib-3)
   - [Dependencies](#dependencies)
 - [Files](#files)
 
