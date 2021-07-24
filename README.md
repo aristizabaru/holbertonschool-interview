@@ -4,14 +4,13 @@
 
 This is an educational project exploring several interview problems. If you whish to follow along, please clone this repo and follow the instructions on each interview problem presented in the table of content.
 
-_All the problems in this repo were solved using Python_
+_All the problems of this repo were solved using Python_
 
 ## Table of contents
 
 - [Requirements](#requirements)
   - [Dependencies](#dependencies)
-- [Interview Problems](#interview-problems)
-  - [0x00 Lockboxes](#0x00-lockboxes)
+- [Interview Problems](#iterview-problems)
 
 ## Requirements
 
