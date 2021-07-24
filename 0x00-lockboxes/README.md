@@ -2,7 +2,7 @@
 
 ## About
 
-This is an educational project that explore the interview problem **Lockboxes** to better prepare candidates for this assignment in the future.
+This is an educational project that explore the **Lockboxes** interview problem to better prepare candidates for this assignment in the future.
 
 ## Table of contents
 
