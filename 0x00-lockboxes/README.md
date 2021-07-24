@@ -16,13 +16,13 @@ This is an educational project that explore the **Lockboxes** interview problem 
 
 ### Dependencies
 
-Please refer at the [requirements.txt](../../requirements.txt) file at the root of this repository.
+Please refer at the [requirements.txt](../requirements.txt) file at the root of this repository.
 
 ## Files
 
 ### 0. Lockboxes
 
-**[0-line.py](0-line.py)**
+**[0-lockboxes](0-lockboxes)**
 
 You have `n` number of locked boxes in front of you. Each box is numbered sequentially from `0` to `n - 1` and each box may contain keys to the other boxes.
 
