@@ -2,15 +2,16 @@
 #include "lists.h"
 
 /**
- * free_listint - frees a listint_t list
- * @head: pointer to list to be freed
- * Return: void
+ * insert_node - insert node in sorted way
+ * @head: pointer to the list's first node
+ * @number: integer to be stored in the new node
+ * Return: pointer to new node
  */
 listint_t *insert_node(listint_t **head, int number) {
     listint_t *new_node = NULL;
     listint_t *temp = NULL;
 
-    if ((head == NULL)) {
+    if (head == NULL) {
         return (NULL);
     }
     /* add first node if there's no other*/
@@ -52,6 +53,11 @@ listint_t *insert_node(listint_t **head, int number) {
 
 }
 
+/**
+ * create_node - create a new listint_t node 
+ * @number: integer to be stored in the new node
+ * Return: pointer to new node
+ */
 listint_t *create_node(int number) {
     listint_t *new_node = NULL;
 
