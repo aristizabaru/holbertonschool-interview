@@ -4,7 +4,7 @@
 
 This is an educational project exploring several interview problems. If you whish to follow along, please clone this repo and follow the instructions on each interview problem presented in the table of content.
 
-_All the problems of this repo were solved using Python_
+_All problems in this repository were solved using Python or the C programming language_
 
 ## Table of contents
 
@@ -15,16 +15,7 @@ _All the problems of this repo were solved using Python_
 ## Requirements
 
 - Python 3.6.14
-
-### Dependencies
-
-Please refer at the [requirements.txt](requirements.txt) file to install all dependencies.
-
-```
-autopep8==1.5.7
-pycodestyle==2.7.0
-toml==0.10.2
-```
+- gcc 4.8.4 using the flags -Wall -Werror -Wextra and -pedantic for C problems
 
 ## Install
 
@@ -37,3 +28,4 @@ git clone https://github.com/aristizabaru/holbertonschool-interview.git
 ## Iterview Problems
 
 - [0x00 Lockboxes](0x00-lockboxes)
+- [0x01 Insert in sorted linked list](0x01-insert_in_sorted_linked_list)
