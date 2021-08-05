@@ -35,7 +35,7 @@ binary_tree_t *binary_tree_node(binary_tree_t *parent, int value)
  * 
  * Return: pointer to new binary_tree_t
  */
-binary_tree_t *create_node()
+binary_tree_t *create_node(void)
 {
 	binary_tree_t *new_node = NULL;
 
