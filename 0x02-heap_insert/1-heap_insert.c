@@ -28,7 +28,8 @@ heap_t *heap_insert(heap_t **root, int value)
                         break;
         }
         /* swap nodes values*/
-        while (new_node->parent && new_node->n > new_node->parent->n)
+        while (new_node->parent && new_node->n >
+                                       new_node->parent->n)
         {
                 temp_value = new_node->parent->n;
                 new_node->parent->n = new_node->n;
@@ -92,9 +93,11 @@ binary_tree_t *add_node(binary_tree_t *tree, int level, int value)
         if (tree_depth(tree) == level)
         {
                 if (is_leaf(tree))
-                        return (tree->left = binary_tree_node(tree, value));
+                        return (tree->left =
+                                    binary_tree_node(tree, value));
                 if (tree->left && !tree->right)
-                        return (tree->right = binary_tree_node(tree, value));
+                        return (tree->right =
+                                    binary_tree_node(tree, value));
                 return (NULL);
         }
         left_node = add_node(tree->left, level, value);
