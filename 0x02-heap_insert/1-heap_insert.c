@@ -9,8 +9,9 @@
 */
 heap_t *heap_insert(heap_t **root, int value)
 {
-        int levels = 0, level, temp;
+        int levels = 0, level, temp_value;
         heap_t *new_node = NULL;
+
         /* create first node if tree is NULL */
         if (!*root)
         {
@@ -29,9 +30,9 @@ heap_t *heap_insert(heap_t **root, int value)
         /* swap nodes values*/
         while (new_node->parent && new_node->n > new_node->parent->n)
         {
-                temp = new_node->parent->n;
+                temp_value = new_node->parent->n;
                 new_node->parent->n = new_node->n;
-                new_node->n = temp;
+                new_node->n = temp_value;
                 new_node = new_node->parent;
         }
         return (new_node);
