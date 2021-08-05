@@ -2,7 +2,6 @@
 
 /**
 * heap_insert - inserts a value into a Max Binary Heap
-*
 * @root: root of the tree
 * @value: the value of the new node
 *
@@ -41,6 +40,7 @@ heap_t *heap_insert(heap_t **root, int value)
 /**
 * tree_height - get the height of a binary sub-tree
 * @tree: first node of the tree
+*
 * Return: height of the sub-tree
 */
 int tree_height(heap_t *tree)
@@ -64,6 +64,7 @@ int tree_height(heap_t *tree)
 /**
 * is_leaf - checks if a node is a leaf
 * @node: node to check
+*
 * Return: 1 if is a leaf, 0 on failure
 */
 int is_leaf(heap_t *node)
@@ -78,6 +79,7 @@ int is_leaf(heap_t *node)
 * @tree: pointer to tree
 * @level: level of insertion
 * @value: value of the new node
+*
 * Return: new node
 */
 binary_tree_t *add_node(binary_tree_t *tree, int level, int value)
@@ -105,6 +107,7 @@ binary_tree_t *add_node(binary_tree_t *tree, int level, int value)
 /**
 * tree_depth - get the depth of a node
 * @tree: node to check
+*
 * Return: depth
 */
 int tree_depth(const binary_tree_t *tree)
