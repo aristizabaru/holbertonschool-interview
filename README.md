@@ -29,3 +29,4 @@ git clone https://github.com/aristizabaru/holbertonschool-interview.git
 
 - [0x00 Lockboxes](0x00-lockboxes)
 - [0x01 Insert in sorted linked list](0x01-insert_in_sorted_linked_list)
+- [0x02 Heap insert](0x02-heap_insert)
